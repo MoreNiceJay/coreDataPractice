@@ -1,0 +1,21 @@
+//
+//  Contacts+CoreDataProperties.swift
+//  coreDataPractice
+//
+//  Created by Lee Janghyup on 11/16/15.
+//  Copyright © 2015 jay. All rights reserved.
+//
+//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
+//  to delete and recreate this implementation file for your updated model.
+//
+
+import Foundation
+import CoreData
+
+extension Contacts {
+
+    @NSManaged var name: String?
+    @NSManaged var phone: String?
+    @NSManaged var image: NSData?
+
+}
